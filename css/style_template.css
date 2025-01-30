@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Nav Styles */
+nav {
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav p, nav a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav a {
+    font-family: 'Schoolbell', serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+/* Footer Styles */
+footer {
+    background-color: lightgrey;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Splash Section */
+.splash {
+    background-color: black;
+    padding: 20px;
+}
+
+.splash h1 {
+    font-size: 55px;
+    color: #ff0000; /* the only color this font comes in is red */
+    font-family: 'Bungee Tint', serif;
+}
+
+.splash img {
+    border-radius: 120px;
+}
+
+.splash p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Schoolbell', serif;
+}
+
+/* Horizontal Rules */
+hr {
+    border: 1px solid black;
+    width: 100%;
+    margin: 0;
+}
+
+/* Sections */
+section {
+    background-color: #ff0000;
+    padding: 20px;
+}
+
+/* Section Headings */
+section h2 {
+    background-color: #ff0000;
+    font-family: 'Schoolbell', serif;
+    color: black;
+}
+
+/* Paragraph Styles */
+section p {
+    font-family: 'Schoolbell', serif;
+    color: black;
+    font-size: 16px;
+}
+
+section h3 {
+    font-family: 'Schoolbell', serif;
+    color: black;
+}
+
+/* link styles */
+section a {
+    font-family: 'Schoolbell', serif;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+section a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    font-family: 'Schoolbell', serif;
+    color: black;
+    font-size: 16px;
+}
+
+dl {
+    font-family: 'Schoolbell', serif;
+    color: white;
+    font-size: 16px;
+}
+dl dt{
+    font-family: 'Schoolbell', serif;
+    color: white;
+    font-size: 16px
+}
+dl dd{
+    font-family: 'Schoolbell', serif;
+    color: white;
+    font-size: 16px
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 50px;
+}
+
+.card h3 {
+    text-align: center;
+    background-color: red;
+    border-radius: 15px;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+}
+
+section h1 {
+    font-family: 'Schoolbell', serif;
+    color: white;
+    font-size: 40px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Schoolbell', serif;
+    width: 50%;
+}
+
+form input, form textarea {
+    border-radius: 5px;
+}
+
+form input:focus, form textarea:focus {
+    border: 2px solid white;
+    font-family: 'Schoolbell', serif;
+}
+
+form button {
+    font-family: 'Schoolbell', serif;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: blue;
+}
